@@ -1,0 +1,125 @@
+body{
+    width: 600px;
+
+
+    margin: 0 auto;
+    padding: 0;
+
+    color: #282828;
+
+    font-family: "Montserrat", sans-serif;
+    
+    
+}
+
+header {
+    /* border: 2px solid red; */   
+    background-color: #282828;
+    color: whitesmoke;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+
+    list-style-type: none;
+
+    gap: 10px;
+
+    
+    padding: 25px;
+    margin: 0;
+}
+
+
+li {
+    cursor: pointer;
+}
+
+.logo {
+    font-weight: 700;
+}
+
+.icon {
+    width: 25px;
+}
+
+.align-right {
+    margin: auto 0 auto auto;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 400;
+    margin: 25px 30px;
+}
+
+.item {
+position: relative;
+}
+
+.item-img {
+    width: 100%;
+    display: block;
+}
+
+.caption {
+    font-weight: 400;
+    margin: 0px 25px;
+
+    display: flex;
+    justify-content: space-between;
+
+    gap: 20px;
+
+
+
+
+}
+
+.img-banner {
+    background-color: #cd6858;
+    color: whitesmoke;
+    padding: 10px;
+
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+button {
+    border: none;
+    background-color: #cd6858;
+    color: whitesmoke;
+    padding: 10px 15px;
+    font-weight: 700;
+    cursor: pointer;
+
+    align-self: center;
+
+}
+
+.chatbox-bg {
+    background-color: #000000c4;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    display: flex;
+    position: fixed;
+    top: 6px;
+    right: 6px;
+}  
+
+.chatbox-img {
+    /*
+    Challenge:
+    1. Center the speech bubble image inside
+       the circle.  
+    */
+    width: 50%; 
+    margin: auto;
+
+
+
+
+    }
